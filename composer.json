@@ -1,0 +1,33 @@
+{
+  "name": "fmatsos/addy-php-sdk",
+  "description": "A PHP client for Addy API",
+  "authors": [{
+    "name": "Franck Matsos",
+    "email": "github@franck.matsos.fr",
+    "homepage": "https://franck.matsos.dev/"
+  }],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Addy\\Api\\": "src/"
+    }
+  },
+  "require-dev": {
+    "php": ">=8.2",
+    "jane-php/open-api-3": "@stable",
+    "php-http/curl-client": "^2.3",
+    "guzzlehttp/psr7": "^2.6",
+    "friendsofphp/php-cs-fixer": "^v3.48"
+  },
+  "require": {
+    "jane-php/open-api-runtime": "@stable",
+    "php-http/client-common": "^2.7"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  },
+  "prefer-stable": true
+}

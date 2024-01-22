@@ -1,0 +1,11 @@
+<?php
+
+return [
+    'openapi-file' => __DIR__ . '/open-api.yaml',
+    'namespace' => 'Addy\Api',
+    'directory' => __DIR__ . '/src',
+    'reference' => true,
+    'strict' => false,
+    'use-cacheable-supports-method' => true,
+    'date-prefer-interface' => true,
+];
